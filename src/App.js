@@ -1,13 +1,14 @@
+import React from 'react';
 import './App.css';
-import {spotify_icon, } from "./assets/images"
 
-function App() {
+
+function App(props) {
   return (
     <div className="App">
       <header className="header">
         <nav className="header__menu">
           <a href="#" className="logo__link">
-            <img src="./" alt="castaway logo" className="logo__img" />
+            <img src="" alt="castaway logo" className="logo__img" />
           </a>
           <ul className="menu__list">
             <li className="menu__list-item">
@@ -25,7 +26,7 @@ function App() {
           </ul>
         </nav>
         <div className="header__content">
-          <img src="./" alt="header image" className="header__image" />
+          <img src="./images/header_img.jpg" alt="header image" className="header__image" />
           <div className="header__titles">
             <h1 className="header__title">Take your podcast to the <span>next</span> <span>level</span></h1>
           </div>
@@ -33,20 +34,21 @@ function App() {
             Listen on
             <div className="players__links">
               <a href="#" className="players__link">
-                <img src="./" alt="" className="players__link-image" />
+                <img src={props.images.logos[0].src} alt={props.images.logos[0].alt} className="players__link-image" />
               </a>
               <a href="#" className="players__link">
-                <img src="./" alt="" className="players__link-image" />
+                <img src={props.images.logos[1].src} alt={props.images.logos[1].alt} className="players__link-image" />
+              </a>              
+              <a href="#" className="players__link">
+                <img src={props.images.logos[2].src} alt={props.images.logos[2].alt} className="players__link-image" />
+              </a>              
+              <a href="#" className="players__link">
+                <img src={props.images.logos[3].src} alt={props.images.logos[3].alt} className="players__link-image" />
               </a>
               <a href="#" className="players__link">
-                <img src="./" alt="" className="players__link-image" />
+                <img src={props.images.logos[4].src} alt={props.images.logos[4].alt} className="players__link-image" />
               </a>
-              <a href="#" className="players__link">
-                <img src="./" alt="" className="players__link-image" />
-              </a>
-              <a href="#" className="players__link">
-                <img src="./" alt="" className="players__link-image" />
-              </a>
+              <img src="src\spotify_icon.svg" />
             </div>
           </div>
         </div>
