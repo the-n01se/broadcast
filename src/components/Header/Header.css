@@ -13,36 +13,36 @@
   gap: 135px;
 }
 
-.header__image-wrapper {
+.header__img-wrapper {
   position: relative;
 }
 
-.header__image {
+.header__img {
   border-radius: 15px;
 }
 
-.header__image-decor {
+.header__img-decor {
   position: absolute;
   border-radius: 4px;
   background-color: #118DA8;
   width: 7px;
 }
 
-.header__image-decor--1 {
+.header__img-decor--1 {
   height: 40px;
   transform: rotate(265deg);
   top: 25px;
   left: -30px;
 }
 
-.header__image-decor--2 {
+.header__img-decor--2 {
   height: 75px;
   transform: rotate(320deg);
   top: -40px;
   left: -5px;
 }
 
-.header__image-decor--3 {
+.header__img-decor--3 {
   height: 35px;
   top: -40px;
   left: 40px;

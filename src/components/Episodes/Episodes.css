@@ -1,0 +1,75 @@
+.episodes {
+  margin-top: 100px;
+  padding-bottom: 100px;
+}
+
+.episodes__titles {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.episodes__title {
+  font-size: 64px;
+  line-height: 79px;
+  letter-spacing: 2.88px;
+}
+
+.episodes__btn {
+  font-size: 17px;
+  line-height: 27px;
+  background-color: #118DA8;
+  padding: 12px 20px;
+  border-radius: 6px;
+  font-weight: 400;
+}
+
+.episodes__cards {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.episodes__card {
+  background-color: #000000;
+  border-radius: 32px;
+  padding: 40px;
+  display: flex;
+  gap: 55px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card__tag {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 2px 16px;
+  background-color: #202020;
+  border-radius: 6px;
+}
+
+.card__counter {
+  margin-top: 10px;
+  color: #118DA8;
+}
+
+.card__title {
+  font-size: 64px;
+  line-height: 70px;
+  letter-spacing: 2.56px;
+  margin: 0;
+  margin-top: 18px;
+  margin-bottom: 0px;
+}
+
+.card__descr {
+  font-size: 22px;
+  line-height: 33px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.card__btn {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
