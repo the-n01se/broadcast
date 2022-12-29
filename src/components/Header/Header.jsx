@@ -6,14 +6,14 @@ import Logo from "../UI/Logo";
 import Menu from '../UI/Menu';
 import HeaderContent from "./HeaderContent";
 
-function Header() {
+function Header(props) {
   return (
     <header className="header">
       <nav className="header__menu">
         <Logo />
         <Menu />
       </nav>
-      <HeaderContent />
+      <HeaderContent iconsData={props.iconsData} />
     </header>
   );
 }

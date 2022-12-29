@@ -4,7 +4,7 @@ import PlayersLinks from "../UI/PlayersLinks";
 
 import header_img from "../../assets/images/header_img.jpg";
 
-function HeaderContent() {
+function HeaderContent(props) {
   return (
     <div className="header__content">
       <div className="header__image-wrapper">
@@ -23,7 +23,7 @@ function HeaderContent() {
         </h1>
         <div className="header__links">
           Listen on
-          <PlayersLinks />
+          <PlayersLinks iconsData={props.iconsData} />
         </div>
       </div>
     </div>

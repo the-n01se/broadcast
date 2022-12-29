@@ -1,42 +1,43 @@
 import React from "react";
 
+import styles from "./PlayersLinks.module.css";
+
 import spotify_icon from "../../assets/images/spotify_icon.svg";
 import soundcloud_icon from "../../assets/images/soundcloud_icon.svg";
 import overcast_icon from "../../assets/images/overcast_icon.svg";
 import applePodcasts_icon from "../../assets/images/apple-podcasts_icon.svg";
 import pocketCasts_icon from "../../assets/images/pocket-casts_icon.svg";
 
-import styles from "./PlayersLinks.module.css";
+const iconsData = [
+  {
+    srcImg: spotify_icon,
+    altImg: "spotify link",
+    srcLink: "#"
+  },
+  {
+    srcImg: pocketCasts_icon,
+    altImg: "pocket casts link",
+    srcLink: "#"
+  },
+  {
+    srcImg: soundcloud_icon,
+    altImg: "soundcloud link",
+    srcLink: "#"
+  },
+  {
+    srcImg: applePodcasts_icon,
+    altImg: "apple podcasts link",
+    srcLink: "#"
+  },
+  {
+    srcImg: overcast_icon,
+    altImg: "overcast link",
+    srcLink: "#"
+  }
+];
 
-function PlayersLinks() {
-
-  const iconsData = [
-    {
-      srcImg: spotify_icon,
-      altImg: "spotify link",
-      srcLink: "#"
-    },
-    {
-      srcImg: pocketCasts_icon,
-      altImg: "pocket casts link",
-      srcLink: "#"
-    },
-    {
-      srcImg: soundcloud_icon,
-      altImg: "soundcloud link",
-      srcLink: "#"
-    },
-    {
-      srcImg: applePodcasts_icon,
-      altImg: "apple podcasts link",
-      srcLink: "#"
-    },
-    {
-      srcImg: overcast_icon,
-      altImg: "overcast link",
-      srcLink: "#"
-    }
-  ];
+function PlayersLinks(props) {
+  console.log(props)
 
   const iconsElements = iconsData.map(i => <a href={i.srcLink} className={styles.players__link}><img src={i.srcImg} alt={i.altImg} className={styles.players__link_image}/></a>)
 

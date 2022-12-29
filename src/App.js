@@ -7,7 +7,7 @@ function App(props) {
   return (
     <div className="App">
       <div className="container">
-        <Header />
+        <Header iconsData={props.iconsData} />
       </div >
     </div >
   );
