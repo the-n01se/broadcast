@@ -1,0 +1,15 @@
+.players__links {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.players__link_image {
+  will-change: transform;
+  transition: all .3s;
+}
+
+.players__link_image:hover {
+  transform: scale(1.2);
+}
