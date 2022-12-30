@@ -1,12 +1,12 @@
 .episodes {
   margin-top: 100px;
-  padding-bottom: 100px;
 }
 
 .episodes__titles {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 50px;
 }
 
 .episodes__title {

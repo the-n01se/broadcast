@@ -3,6 +3,7 @@ import './App.css';
 
 import Header from './components/Header/Header'
 import Episodes from './components/Episodes/Episodes';
+import About from './components/About/About';
 
 function App(props) {
   return (
@@ -10,6 +11,7 @@ function App(props) {
       <div className="container">
         <Header iconsData={props.iconsData} />
         <Episodes cardData={props.cardData} />
+        <About />
       </div >
     </div >
   );
