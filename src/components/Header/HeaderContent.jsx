@@ -23,7 +23,7 @@ function HeaderContent(props) {
         </h1>
         <div className="header__links">
           Listen on
-          <PlayersLinks iconsData={props.iconsData} />
+          <PlayersLinks playersLinksData={props.playersLinksData} />
         </div>
       </div>
     </div>

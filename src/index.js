@@ -13,7 +13,7 @@ import ep_1 from "./assets/images/episode_1.jpg";
 import ep_2 from "./assets/images/episode_2.jpg";
 import ep_3 from "./assets/images/episode_3.jpg";
 
-const iconsData = [
+const playersLinksData = [
   {
     id: 1,
     srcImg: spotify_icon,
@@ -46,7 +46,7 @@ const iconsData = [
   }
 ];
 
-const cardData = [
+const episodesData = [
   {
     id: 1,
     srcImg: ep_1,
@@ -71,12 +71,50 @@ const cardData = [
     title: "Should you get outboard audio gear?",
     descr: "Is hardware really worth it when it comes to podcasting? The answer is...it depends. Here’s our reasons on why you might want to consider picking something up."
   },
+]
 
+const feedbackData = [
+  {
+    id: 1,
+    grade: 5,
+    text: "I can’t recommend this podcast enough",
+    author: "Betty Lacey"
+  },
+  {
+    id: 2,
+    grade: 5,
+    text: "Jacob is the best in the business",
+    author: "Adam Driver"
+  },
+  {
+    id: 3,
+    grade: 5,
+    text: "A wealth of audio knowledge",
+    author: "Marcus Brown"
+  },
+  {
+    id: 4,
+    grade: 5,
+    text: "Every episode is a gem!",
+    author: "Jessica Knowl"
+  },
+  {
+    id: 5,
+    grade: 5,
+    text: "Whoa whoa, let me take some notes!",
+    author: "Scott Adams"
+  },
+  {
+    id: 6,
+    grade: 5,
+    text: "I’ve upped my game considerably since I started listening",
+    author: "Steven Blast"
+  }
 ]
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App iconsData={iconsData} cardData={cardData} />
+    <App playersLinksData={playersLinksData} episodesData={episodesData} feedbackData={feedbackData} />
   </React.StrictMode>
 );

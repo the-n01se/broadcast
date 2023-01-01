@@ -13,7 +13,7 @@ function Header(props) {
         <Logo />
         <Menu />
       </nav>
-      <HeaderContent iconsData={props.iconsData} />
+      <HeaderContent playersLinksData={props.playersLinksData} />
     </header>
   );
 }

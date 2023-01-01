@@ -3,11 +3,11 @@ import React from "react";
 import './Episodes.css';
 
 import Btn from '../UI/Button';
-import Card from "./Card";
+import Card from "./EpisodesCard";
 
 function Episodes(props) {
 
-  const cardElements = props.cardData.map(c => (<Card id={c.id} srcImg={c.srcImg} tag={c.tag} counter={c.counter} title={c.title} descr={c.descr} />))
+  const cardElements = props.episodesData.map(c => (<Card id={c.id} srcImg={c.srcImg} tag={c.tag} counter={c.counter} title={c.title} descr={c.descr} />))
   return (
     <section className="episodes">
       <div className="episodes__titles">
