@@ -6,6 +6,7 @@ import Episodes from './components/Episodes/Episodes';
 import About from './components/About/About';
 import Subscribe from './components/Subscribe/Subscribe';
 import Feedback from './components/Feedback/Feedback';
+import Footer from './components/Footer/Footer';
 
 function App(props) {
   return (
@@ -16,10 +17,19 @@ function App(props) {
         <About />
         <Subscribe /> 
         <Feedback feedbackData={props.feedbackData} />
+        <Footer playersLinksData={props.playersLinksData} />
       </div>
     </div>
   );
   
 }
+
+// animation
+// adaptive
+// accesability
+// work of forms
+// popup
+// playerslinks data
+// link
 
 export default App;

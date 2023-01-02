@@ -52,3 +52,8 @@
   line-height: 24px;
 }
 
+.header__menu ul  {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}

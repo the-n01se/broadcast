@@ -1,9 +1,6 @@
 .menu__list {
-  display: flex;
-  align-items: center;
   font-size: 17px;
   line-height: 27px;
-  gap: 40px;
 }
 
 .menu__list_link {

@@ -1,0 +1,38 @@
+.footer {
+  margin-top: 100px;
+  padding-bottom: 50px;
+}
+
+.footer__inner {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+
+.footer__rightside {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: start;
+}
+
+.footer__social {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.footer ul {
+  font-size: 17px;
+  line-height: 27px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer__list-link {
+  transition: color .3s;
+}
+
+.footer__list-link:hover {
+  color: #118DA8;
+}

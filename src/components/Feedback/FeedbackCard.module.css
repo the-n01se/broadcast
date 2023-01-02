@@ -2,6 +2,11 @@
   background-color: #000000;
   border-radius: 32px;
   padding: 50px;
+  transition: transform .3s;
+}
+
+.feedback__card:hover {
+  transform: scale(1.05);
 }
 
 .card__stars {
