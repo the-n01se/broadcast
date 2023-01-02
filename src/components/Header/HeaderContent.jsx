@@ -7,12 +7,7 @@ import header_img from "../../assets/images/header_img.jpg";
 function HeaderContent(props) {
   return (
     <div className="header__content">
-      <div className="header__img-wrapper">
-        <span className="header__img-decor header__img-decor--1"></span>
-        <span className="header__img-decor header__img-decor--2"></span>
-        <span className="header__img-decor header__img-decor--3"></span>
         <img src={header_img} alt="header img" className="header__img" />
-      </div>
       <div className="header__titles">
         <h1 className="header__title">
           Take your podcast to the{" "}

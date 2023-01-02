@@ -76,7 +76,7 @@ const episodesData = [
 const feedbackData = [
   {
     id: 1,
-    grade: 5,
+    grade: 1,
     text: "I can’t recommend this podcast enough",
     author: "Betty Lacey"
   },
@@ -88,7 +88,7 @@ const feedbackData = [
   },
   {
     id: 3,
-    grade: 5,
+    grade: 4,
     text: "A wealth of audio knowledge",
     author: "Marcus Brown"
   },
@@ -100,7 +100,7 @@ const feedbackData = [
   },
   {
     id: 5,
-    grade: 5,
+    grade: 3,
     text: "Whoa whoa, let me take some notes!",
     author: "Scott Adams"
   },

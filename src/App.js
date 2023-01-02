@@ -16,8 +16,8 @@ function App(props) {
         <About />
         <Subscribe /> 
         <Feedback feedbackData={props.feedbackData} />
-      </div >
-    </div >
+      </div>
+    </div>
   );
   
 }
