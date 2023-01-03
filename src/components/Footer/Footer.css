@@ -1,5 +1,5 @@
 .footer {
-  margin-top: 100px;
+  padding-top: 100px;
   padding-bottom: 50px;
 }
 
@@ -12,13 +12,21 @@
   display: flex;
   justify-content: center;
   gap: 20px;
-  align-items: start;
+  align-items: flex-start;
 }
 
 .footer__social {
   display: flex;
   gap: 10px;
   margin-top: 20px;
+}
+
+.footer__social-img path {
+  transition: .3s;
+}
+
+.footer__social-img:hover path{
+  stroke: #118DA8;
 }
 
 .footer ul {

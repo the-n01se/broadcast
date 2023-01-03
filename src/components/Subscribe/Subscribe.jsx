@@ -6,7 +6,7 @@ import "./Subscribe.css";
 
 function Subscribe(props) {
   return (
-    <section className="subscribe">
+    <section className="subscribe" id="subscribe">
       <div className="subscribe__inner">
         <div className="subscribe__titles">
           <p className="subscribe__subtitle">Email Newsletter</p>

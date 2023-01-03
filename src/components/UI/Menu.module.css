@@ -5,6 +5,7 @@
 
 .menu__list_link {
   transition: .3s;
+  cursor: pointer;
 }
 
 .menu__list_link:hover {

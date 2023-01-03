@@ -6,7 +6,7 @@ import "./About.css";
 
 function About() {
   return (
-    <section className="about">
+    <section className="about" id="about">
       <div className="about__content">
         <div className="about__texts">
           <h3 className="about__title">Jacob Paulaner</h3>

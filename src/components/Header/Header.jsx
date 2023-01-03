@@ -8,7 +8,7 @@ import HeaderContent from "./HeaderContent";
 
 function Header(props) {
   return (
-    <header className="header">
+    <header className="header" id="header">
       <nav className="header__menu">
         <Logo />
         <Menu />

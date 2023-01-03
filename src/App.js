@@ -12,10 +12,10 @@ function App(props) {
   return (
     <div className="App">
       <div className="container">
-        <Header playersLinksData={props.playersLinksData} />
-        <Episodes episodesData={props.episodesData} />
-        <About />
-        <Subscribe /> 
+        <Header name="header" playersLinksData={props.playersLinksData} />
+        <Episodes name="episodes" episodesData={props.episodesData} />
+        <About name="about" />
+        <Subscribe name="subscribe" /> 
         <Feedback feedbackData={props.feedbackData} />
         <Footer playersLinksData={props.playersLinksData} />
       </div>
@@ -24,12 +24,14 @@ function App(props) {
   
 }
 
+// ceo
 // animation
 // adaptive
 // accesability
 // work of forms
 // popup
 // playerslinks data
-// link
+// popup blocks
+// footer component
 
 export default App;

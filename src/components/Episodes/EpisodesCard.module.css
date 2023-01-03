@@ -6,11 +6,12 @@
   gap: 55px;
   align-items: center;
   justify-content: space-between;
+  will-change: transform;
   transition: transform .5s;
 }
 
 .episodes__card:hover {
-  transform: scale(1.03);
+  transform: scale(1.02);
 }
 
 .card__tag {

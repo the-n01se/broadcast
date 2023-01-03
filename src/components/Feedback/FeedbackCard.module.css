@@ -2,6 +2,7 @@
   background-color: #000000;
   border-radius: 32px;
   padding: 50px;
+  will-change: transform;
   transition: transform .3s;
 }
 

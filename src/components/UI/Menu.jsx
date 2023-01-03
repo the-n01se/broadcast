@@ -1,32 +1,57 @@
-import React from 'react';
+import React from "react";
+import { Link } from "react-scroll";
 
-import styles from './Menu.module.css';
+import styles from "./Menu.module.css";
 
 function Menu() {
-  return ( 
+  return (
     <ul className={styles.menu__list}>
-          <li className={styles.menu__list_item}>
-            <a href="#" className={styles.menu__list_link}>
-              Home
-            </a>
-          </li>
-          <li className={styles.menu__list_item}>
-            <a href="#" className={styles.menu__list_link}>
-              Episodes
-            </a>
-          </li>
-          <li className={styles.menu__list_item}>
-            <a href="#" className={styles.menu__list_link}>
-              About
-            </a>
-          </li>
-          <li className={styles.menu__list_item}>
-            <a href="#" className={styles.menu__list_link}>
-              Contact
-            </a>
-          </li>
-        </ul>
-   );
+      <li className={styles.menu__list_item}>
+        <Link
+          to="header"
+          spy={true}
+          smooth={true}
+          duration={500}
+          className={styles.menu__list_link}
+        >
+          Home
+        </Link>
+      </li>
+      <li className={styles.menu__list_item}>
+        <Link
+          to="episodes"
+          spy={true}
+          smooth={true}
+          duration={500}
+          className={styles.menu__list_link}
+        >
+          Episodes
+        </Link>
+      </li>
+      <li className={styles.menu__list_item}>
+        <Link
+          to="about"
+          spy={true}
+          smooth={true}
+          duration={500}
+          className={styles.menu__list_link}
+        >
+          About
+        </Link>
+      </li>
+      <li className={styles.menu__list_item}>
+        <Link
+          to="subscribe"
+          spy={true}
+          smooth={true}
+          duration={500}
+          className={styles.menu__list_link}
+        >
+          Contact
+        </Link>
+      </li>
+    </ul>
+  );
 }
 
 export default Menu;
