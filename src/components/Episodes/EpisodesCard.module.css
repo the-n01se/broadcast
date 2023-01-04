@@ -48,3 +48,24 @@
   margin-top: 10px;
   margin-bottom: 20px;
 }
+
+@media only screen and (max-width: 1100px) {
+  .card__img {
+    max-width: 340px;
+  }
+  .card__tag {
+    font-size: 16px;
+  }
+  .card__counter {
+    margin-top: 15px;
+  }
+  .card__title {
+    font-size: 54px;
+    line-height: 60px;
+  }
+  .card__descr {
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+  }
+}

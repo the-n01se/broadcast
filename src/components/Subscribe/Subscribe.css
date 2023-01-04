@@ -46,3 +46,15 @@
 .subscribe__forms button {
   width: 50%;
 }
+
+@media only screen and (max-width: 1100px) {
+  .subscribe__title {
+    font-size: 54px;
+    line-height: 64px;
+  }
+  .subscribe__input {
+    padding: 15px 20px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+}

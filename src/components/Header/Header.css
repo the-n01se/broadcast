@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 40px 0px;
+  padding-top: 40px;
   background-color: #191919;
 }
 
@@ -57,4 +57,31 @@
   margin-left: 20px;
   font-size: 15px;
   line-height: 24px;
+}
+
+.header__links span {
+  display: block;
+  margin-bottom: 16px;
+}
+
+@media only screen and (max-width: 1100px) {
+  .header__content {
+    gap: 70px;
+  }
+  .header__img {
+    max-width: 450px;
+  }
+  .header__title {
+    font-size: 64px;
+    margin-bottom: 20px;
+  }
+  .header__title-span--1 {
+    font-size: 70px;
+  }
+  .header__title-span--2 {
+    font-size: 75px;
+  }
+  .header__links {
+    margin-left: 0px;
+  }
 }

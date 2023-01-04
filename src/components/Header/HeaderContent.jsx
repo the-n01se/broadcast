@@ -17,7 +17,7 @@ function HeaderContent(props) {
           </span>
         </h1>
         <div className="header__links">
-          Listen on
+          <span>Listen on</span>
           <PlayersLinks playersLinksData={props.playersLinksData} />
         </div>
       </div>

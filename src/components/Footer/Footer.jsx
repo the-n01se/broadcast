@@ -3,9 +3,6 @@ import Logo from "../UI/Logo";
 
 import "./Footer.css";
 
-import inst_icon from "../../assets/images/inst_icon.svg";
-import twitter_icon from "../../assets/images/twitter_icon.svg";
-import facebook_icon from "../../assets/images/facebook_icon.svg";
 import Menu from "../UI/Menu";
 import PlayersLinks from "../UI/PlayersLinks";
 
