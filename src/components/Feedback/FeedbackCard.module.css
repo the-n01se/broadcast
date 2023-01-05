@@ -41,3 +41,18 @@
     line-height: 28px;
   }
 }
+@media only screen and (max-width: 940px) {
+  .feedback__card {
+    padding: 30px;
+  }
+  .card__text {
+    margin-bottom: 10px;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .card__author {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+

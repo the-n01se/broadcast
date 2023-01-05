@@ -1,13 +1,17 @@
-.menu__list {
+.menu__list_link {
+  transition: .3s;
+  cursor: pointer;
   font-size: 17px;
   line-height: 27px;
 }
 
-.menu__list_link {
-  transition: .3s;
-  cursor: pointer;
-}
-
 .menu__list_link:hover {
   color: #118DA8;
+}
+
+@media only screen and (max-width: 800px) {
+  .menu__list_link {
+    font-size: 14px;
+    line-height: 20px;
+  }
 }

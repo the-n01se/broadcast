@@ -25,7 +25,7 @@
   transition: .3s;
 }
 
-.footer__social-img:hover path{
+.footer__social-img:hover path {
   stroke: #118DA8;
 }
 
@@ -48,5 +48,42 @@
 @media only screen and (max-width: 1100px) {
   .footer__inner {
     grid-template-columns: 1fr 2fr;
+  }
 }
+
+@media only screen and (max-width: 940px) {
+  .footer__social {
+    margin-top: 5px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .footer ul {
+    font-size: 14px;
+    line-height: 20px;
+    gap: 5px;
+    margin: 0 15px; 
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .footer {
+    padding-top: 50px;
+    padding-bottom: 25px;
+  }
+  .footer__inner {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.5fr;
+    gap: 40px;
+  }
+  .footer__rightside {
+    grid-row: 1;
+  }
+  .footer__leftside {
+    grid-row: 2;
+    margin: 0 auto;
+  }
+  .footer__social { 
+    justify-content: center;
+  }
 }
