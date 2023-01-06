@@ -3,7 +3,20 @@ import { Link } from "react-scroll";
 
 import styles from "./Menu.module.css";
 
-function Menu() {
+function Menu(props) {
+  // const menuElements = props.menuData.map((m) => (
+  //   <li className={styles.menu__list_item}>
+  //     <Link
+  //       to={m.link}
+  //       spy={true}
+  //       smooth={true}
+  //       duration={500}
+  //       className={styles.menu__list_link}
+  //     >
+  //       {m.text}
+  //     </Link>
+  //   </li>
+  // ));
   return (
     <ul className={styles.menu__list}>
       <li className={styles.menu__list_item}>

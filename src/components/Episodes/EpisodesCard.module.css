@@ -110,11 +110,41 @@
   .episodes__card {
     flex-direction: column;
     text-align: center;
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     gap: 20px;
   }
   .card__content {
-    width: 90%;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .episodes__card {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .card__img {
+    width: 200px;
+  }
+  .card__counter {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .card__tag {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .card__title {
+    font-size: 32px;
+    line-height: 38px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .episodes__card {
+    width: 100%;
   }
 }

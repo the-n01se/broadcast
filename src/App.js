@@ -12,7 +12,7 @@ function App(props) {
   return (
     <div className="App">
       <div className="container">
-        <Header name="header" playersLinksData={props.playersLinksData} />
+        <Header name="header" menuData={props.menuData} playersLinksData={props.playersLinksData} />
         <Episodes name="episodes" episodesData={props.episodesData} />
         <About name="about" />
         <Subscribe name="subscribe" /> 
@@ -36,5 +36,6 @@ function App(props) {
 // playerslinks data
 // popup blocks
 // footer components
+// replace props with variables
 
 export default App;

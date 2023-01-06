@@ -18,3 +18,15 @@
     width: 25px;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .players__link_image {
+    width: 30px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .players__link_image {
+    width: 25px;
+  }
+}

@@ -114,3 +114,22 @@
     margin: 0 auto;
   }
 }
+
+@media only screen and (max-width: 450px) {
+  .subscribe__inner {
+    width: 90%;
+  }
+  .subscribe__title {
+    font-size: 32px;
+    line-height: 38px;
+  }
+  .subscribe__forms {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .subscribe__inner {
+    width: 100%;
+  }
+}

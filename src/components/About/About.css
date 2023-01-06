@@ -123,3 +123,26 @@
     z-index: 1;
   }
 }
+
+@media only screen and (max-width: 450px) {
+  .about__title {
+    font-size: 38px;
+    line-height: 44px;
+    margin-bottom: 10px;
+  }
+  .about__text {
+    font-size: 14px;
+    line-height: 22px;
+    margin: 5px 0px 10px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .about__title {
+    font-size: 32px;
+    line-height: 38px;
+  }
+  .about__img {
+    max-width: 100%;
+  }
+}

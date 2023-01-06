@@ -13,6 +13,29 @@ import ep_1 from "./assets/images/episode_1.jpg";
 import ep_2 from "./assets/images/episode_2.jpg";
 import ep_3 from "./assets/images/episode_3.jpg";
 
+const menuData = [
+  {
+    id: 1,
+    text: 'Home',
+    link: 'header'
+  },
+  {
+    id: 2,
+    text: 'Episodes',
+    link: 'episodes'
+  },
+  {
+    id: 3,
+    text: 'About',
+    link: 'about'
+  },
+  {
+    id: 4,
+    text: 'Contact',
+    link: 'subscribe'
+  }
+];
+
 const playersLinksData = [
   {
     id: 1,
@@ -71,7 +94,7 @@ const episodesData = [
     title: "Should you get outboard audio gear?",
     descr: "Is hardware really worth it when it comes to podcasting? The answer is...it depends. Here’s our reasons on why you might want to consider picking something up."
   },
-]
+];
 
 const feedbackData = [
   {
@@ -110,11 +133,11 @@ const feedbackData = [
     text: "I’ve upped my game considerably since I started listening",
     author: "Steven Blast"
   }
-]
+];
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App playersLinksData={playersLinksData} episodesData={episodesData} feedbackData={feedbackData} />
+    <App menuData={menuData} playersLinksData={playersLinksData} episodesData={episodesData} feedbackData={feedbackData} />
   </React.StrictMode>
 );

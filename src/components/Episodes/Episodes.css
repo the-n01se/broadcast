@@ -49,11 +49,25 @@
     line-height: 54px;
     letter-spacing: normal;
   }
+  .episodes__titles {
+    gap: 20px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
   .episodes__title {
-    font-size: 36px;
-    line-height: 44x;
+    font-size: 40px;
+    line-height: 48px;
+
+  }
+  .episodes__titles {
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .episodes__titles {
+    gap: 15px;
+    justify-content: center;
   }
 }
