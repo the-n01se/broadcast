@@ -133,3 +133,13 @@
     width: 100%;
   }
 }
+
+@media only screen and (max-width: 370px) {
+  .subscribe__inner {
+    padding: 30px;
+  }
+  .subscribe__title {
+    font-size: 30px;
+    line-height: 36px;
+  }
+}

@@ -36,6 +36,5 @@ function App(props) {
 // playerslinks data
 // popup blocks
 // footer components
-// replace props with variables
 
 export default App;

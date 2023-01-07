@@ -138,11 +138,14 @@
 }
 
 @media only screen and (max-width: 400px) {
+  .about__texts {
+    width: 90%;
+  }
   .about__title {
     font-size: 32px;
     line-height: 38px;
   }
   .about__img {
-    max-width: 100%;
+    max-width: 110%;
   }
 }

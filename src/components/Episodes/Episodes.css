@@ -58,7 +58,6 @@
   .episodes__title {
     font-size: 40px;
     line-height: 48px;
-
   }
   .episodes__titles {
     flex-wrap: wrap;
@@ -69,5 +68,13 @@
   .episodes__titles {
     gap: 15px;
     justify-content: center;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .episodes__title {
+    font-size: 34px;
+    line-height: 40px;
   }
 }
