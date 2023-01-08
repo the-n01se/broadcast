@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 import "./PopupMenu.css";
 
@@ -8,9 +9,16 @@ function PopupMenu(props) {
 
   const popupMenuElements = props.menuData.map((m) => (
     <li className="popup_menu__list-item">
-      <a className="popup_menu__list-link" href={m.link}>
+      <Link
+        to={m.link}
+        spy={true}
+        smooth={true}
+        duration={500}
+        className="popup_menu__list-link"
+        onClick={() => setMenuActive(!menuActive)}
+      >
         {m.text}
-      </a>
+      </Link>
     </li>
   ));
   return (
