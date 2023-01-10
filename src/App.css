@@ -1,13 +1,35 @@
+@font-face {
+  font-family: 'DMSans';
+  src: url('./assets/fonts/DMSans-Regular.woff2') format('woff2'),
+    url('./assets/fonts/DMSans-Regular.woff') format('woff');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DMSans';
+  src: url('./assets/fonts/DMSans-Bold.woff2') format('woff2'),
+    url('./assets/fonts/DMSans-Bold.woff') format('woff');
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+html {
+  box-sizing: border-box;
+}
+
 *,
 *::after,
 *::before {
-  box-sizing: border-box;
+  box-sizing: inherit;
 }
 
 .App {
   background-color: #191919;
   color: #ffffff;
-  font-family: 'DM Sans';
+  font-family: 'DMSans';
   font-weight: 400;
 }
 
@@ -33,7 +55,12 @@ button {
   border: none;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
   padding: 0;
   font-weight: 400;

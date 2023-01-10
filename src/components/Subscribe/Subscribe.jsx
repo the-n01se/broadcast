@@ -53,7 +53,7 @@ function Subscribe(props) {
           <div className="subscribe__input-wrapper">
             <input
               className="subscribe__input"
-              inputmode="email"
+              inputMode="email"
               placeholder="Email"
               {...register("userEmail", {
                 required: "The field is required",

@@ -26,15 +26,12 @@ function App(props) {
 
 // ceo
 // animation
-// adaptive
 // accesability
 // optimization
 // lazy loading
 
-// work of forms
-// popup
 // playerslinks data
 // popup blocks
-// footer components
+// add components
 
 export default App;

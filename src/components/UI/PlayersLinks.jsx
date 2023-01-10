@@ -4,7 +4,7 @@ import styles from "./PlayersLinks.module.css";
 
 function PlayersLinks(props) {
   const iconsElements = props.playersLinksData.map((i) => (
-    <a href={i.srcLink} className={styles.players__link}>
+    <a href={i.srcLink} className={styles.players__link} key={i.id}>
       <img
         src={i.srcImg}
         alt={i.altImg}
