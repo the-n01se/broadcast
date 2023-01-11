@@ -1,5 +1,6 @@
 import React from "react";
 import about_img from "../../assets/images/about_img.jpg";
+import about_img_webp from "../../assets/images/about_img.webp";
 import Btn from "../UI/Button";
 
 import "./About.css";
@@ -20,7 +21,10 @@ function About() {
           </p>
           <Btn className="about__btn" text="Meet your host" /> 
         </div>
-        <img className="about__img" src={about_img} alt="about img" />
+        <picture className="about__img">
+          <source srcSet={about_img_webp} type="image/webp" />
+          <img src={about_img} alt="" />
+        </picture>
       </div>
     </section>
   );

@@ -12,6 +12,9 @@ import pocketCasts_icon from "./assets/images/pocket-casts_icon.svg";
 import ep_1 from "./assets/images/episode_1.jpg";
 import ep_2 from "./assets/images/episode_2.jpg";
 import ep_3 from "./assets/images/episode_3.jpg";
+import ep_1_webp from "./assets/images/episode_1.webp";
+import ep_2_webp from "./assets/images/episode_2.webp";
+import ep_3_webp from "./assets/images/episode_3.webp";
 
 const menuData = [
   {
@@ -73,6 +76,7 @@ const episodesData = [
   {
     id: 1,
     srcImg: ep_1,
+    srcImgWebp: ep_1_webp,
     tag: "Gear",
     counter: 1,
     title: "The best microphone under $200",
@@ -81,6 +85,7 @@ const episodesData = [
   {
     id: 2,
     srcImg: ep_2,
+    srcImgWebp: ep_2_webp,
     tag: "Tips & Tricks",
     counter: 2,
     title: "Mic tricks to take you to the next level",
@@ -89,6 +94,7 @@ const episodesData = [
   {
     id: 3,
     srcImg: ep_3,
+    srcImgWebp: ep_3_webp,
     tag: "Gear",
     counter: 3,
     title: "Should you get outboard audio gear?",

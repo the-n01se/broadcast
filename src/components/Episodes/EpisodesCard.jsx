@@ -7,11 +7,10 @@ import styles from "./EpisodesCard.module.css";
 function Card(props) {
   return (
     <div className={styles.episodes__card}>
-      <img
-        src={props.srcImg}
-        alt={`card img ${props.id}`}
-        className={styles.card__img}
-      />
+      <picture className={styles.card__img}>
+        <source srcSet={props.srcImgWebp} type="image/webp" />
+        <img src={props.srcImg} alt={`card img ${props.id}`} />
+      </picture>
       <div className={styles.card__content}>
         <div className={styles.card__content_top}>
           <p className={styles.card__counter}>{`Episode ${props.counter}`}</p>

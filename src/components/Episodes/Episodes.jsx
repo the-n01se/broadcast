@@ -10,6 +10,7 @@ function Episodes(props) {
     <Card
       id={c.id}
       srcImg={c.srcImg}
+      srcImgWebp={c.srcImgWebp}
       tag={c.tag}
       counter={c.counter}
       title={c.title}

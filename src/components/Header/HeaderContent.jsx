@@ -3,11 +3,15 @@ import React from "react";
 import PlayersLinks from "../UI/PlayersLinks";
 
 import header_img from "../../assets/images/header_img.jpg";
+import header_img_webp from "../../assets/images/header_img.webp";
 
 function HeaderContent(props) {
   return (
     <div className="header__content">
-        <img src={header_img} alt="header img" className="header__img" />
+      <picture className="header__img">
+        <source srcSet={header_img_webp} type="image/webp" />
+        <img src={header_img} alt="" />
+      </picture>
       <div className="header__titles">
         <h1 className="header__title">
           Take your podcast to the{" "}

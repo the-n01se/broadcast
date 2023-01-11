@@ -55,7 +55,7 @@
 }
 
 @media only screen and (max-width: 1100px) {
-  .card__img {
+  .card__img img{
     max-width: 340px;
   }
   .card__tag {
@@ -74,7 +74,7 @@
 }
 
 @media only screen and (max-width: 940px) {
-  .card__img {
+  .card__img img{
     max-width: 270px;
   }
   .card__tag {
@@ -94,7 +94,7 @@
 }
 
 @media only screen and (max-width: 800px) {
-  .card__img {
+  .card__img img{
     max-width: 230px;
   }
   .card__tag {
@@ -126,7 +126,7 @@
 }
 
 @media only screen and (max-width: 500px) {
-  .card__img {
+  .card__img img{
     width: 200px;
   }
   .card__counter {
@@ -153,7 +153,7 @@
   .episodes__card {
     padding: 30px 15px;
   }
-  .card__img {
+  .card__img img{
     width: 180px;
   }
   .card__title {
