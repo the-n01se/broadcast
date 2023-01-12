@@ -8,6 +8,7 @@ function Menu() {
     <ul className={styles.menu__list}>
       <li className={styles.menu__list_item}>
         <Link
+          href="#"
           to="header"
           spy={true}
           smooth={true}
@@ -19,6 +20,7 @@ function Menu() {
       </li>
       <li className={styles.menu__list_item}>
         <Link
+          href="#"
           to="episodes"
           spy={true}
           smooth={true}
@@ -30,6 +32,7 @@ function Menu() {
       </li>
       <li className={styles.menu__list_item}>
         <Link
+          href="#"
           to="about"
           spy={true}
           smooth={true}
@@ -41,6 +44,7 @@ function Menu() {
       </li>
       <li className={styles.menu__list_item}>
         <Link
+          href="#"
           to="subscribe"
           spy={true}
           smooth={true}

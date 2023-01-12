@@ -10,7 +10,7 @@ function About() {
     <section className="about" id="about">
       <div className="about__content">
         <div className="about__texts">
-          <h3 className="about__title">Jacob Paulaner</h3>
+          <h2 className="about__title">Jacob Paulaner</h2>
           <p className="about__text">
             Jacob has a background in audio engineering, and has been podcasting
             since the early days.

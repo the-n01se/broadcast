@@ -26,7 +26,7 @@ function Subscribe(props) {
       <div className="subscribe__inner">
         <div className="subscribe__titles">
           <p className="subscribe__subtitle">Email Newsletter</p>
-          <h3 className="subscribe__title">Subscribe for updates</h3>
+          <h2 className="subscribe__title">Subscribe for updates</h2>
         </div>
         <form className="subscribe__forms" onSubmit={handleSubmit(onSubmit)}>
           <div className="subscribe__input-wrapper">

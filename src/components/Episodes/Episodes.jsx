@@ -21,7 +21,7 @@ function Episodes(props) {
   return (
     <section className="episodes" id="episodes">
       <div className="episodes__titles">
-        <h3 className="episodes__title">Latest episodes</h3>
+        <h2 className="episodes__title">Latest episodes</h2>
         <Btn text="View all episodes" />
       </div>
       <div className="episodes__cards">{cardElements}</div>

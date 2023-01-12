@@ -8,6 +8,7 @@ import styles from "./Logo.module.css";
 function Logo() {
   return (
     <Link
+    href="#"
       to="header"
       spy={true}
       smooth={true}
