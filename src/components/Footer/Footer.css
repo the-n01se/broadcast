@@ -82,6 +82,9 @@
   .footer__leftside {
     grid-row: 2;
     margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
   .footer__social { 
     justify-content: center;

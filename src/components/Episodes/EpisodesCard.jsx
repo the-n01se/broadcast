@@ -18,7 +18,7 @@ function Card(props) {
         </div>
         <h3 className={styles.card__title}>{props.title}</h3>
         <p className={styles.card__descr}>{props.descr}</p>
-        <Btn className={styles.card__btn} text="View Episode Details" />
+        <Btn className={styles.card__btn} text="View Episode Details" onClick={() => props.setAlertActive(true)}/>
       </div>
     </div>
   );

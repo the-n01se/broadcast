@@ -193,6 +193,12 @@
     font-size: 54px;
     line-height: 60px;
   }
+  .header__title-span--1 {
+    font-size: 60px;
+  }
+  .header__title-span--2 {
+    font-size: 60px;
+  }
   .header__titles {
     position: absolute;
     width: 80%;
@@ -209,6 +215,12 @@
     font-size: 44px;
     line-height: 54px;
   }
+  .header__title-span--1 {
+    font-size: 50px;
+  }
+  .header__title-span--2 {
+    font-size: 50px;
+  }
 }
 
 @media only screen and (max-width: 450px) {
@@ -219,6 +231,7 @@
     max-width: 110%;
   }
   .header__menu {
+    padding-top: 15px;
     width: 70%;
   }
   .header__titles {

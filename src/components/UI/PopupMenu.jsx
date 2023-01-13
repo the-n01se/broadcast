@@ -28,6 +28,7 @@ function PopupMenu(props) {
           <h3 className="popup_menu__title">Menu</h3>
           <button
             className="popup_menu__btn"
+            aria-label="close"
             onClick={() => setMenuActive(!menuActive)}
           >
             <svg

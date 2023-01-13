@@ -16,13 +16,17 @@ function Episodes(props) {
       title={c.title}
       descr={c.descr}
       key={c.id}
+      setAlertActive={props.setAlertActive}
     />
   ));
   return (
     <section className="episodes" id="episodes">
       <div className="episodes__titles">
         <h2 className="episodes__title">Latest episodes</h2>
-        <Btn text="View all episodes" />
+        <Btn
+          text="View all episodes"
+          onClick={() => props.setAlertActive(true)}
+        />
       </div>
       <div className="episodes__cards">{cardElements}</div>
     </section>

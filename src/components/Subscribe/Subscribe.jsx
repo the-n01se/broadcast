@@ -17,7 +17,7 @@ function Subscribe(props) {
   });
 
   const onSubmit = (data) => {
-    alert("The message sent successfully");
+    props.setAlertActive(true);
     reset();
   };
 
@@ -37,10 +37,13 @@ function Subscribe(props) {
               {...register("userName", {
                 required: "The field is required",
                 pattern: {
-                  value: /^[A-Za-z-]+$/i,
+                  value: /^[A-Za-zА-яа-я-]+$/i,
                   message: "Enter correct name",
                 },
-                maxLength: 15,
+                maxLength: {
+                  value: 15,
+                  message: "Too many characters",
+                },
               })}
             />
             <span className="subscribe__input-errors">
@@ -61,7 +64,10 @@ function Subscribe(props) {
                   value: /[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]/,
                   message: "Enter correct email",
                 },
-                maxLength: 30,
+                maxLength: {
+                  value: 30,
+                  message: "Too many characters",
+                },
               })}
             />
             <span className="subscribe__input-errors">

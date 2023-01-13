@@ -15,13 +15,13 @@ function Header(props) {
       <nav className="header__menu">
         <Logo />
         <Menu menuData={props.menuData} />
-        <button className="header__btn" onClick={() => setMenuActive(!menuActive)}>
+        <button aria-label="menu" className="header__btn" onClick={() => setMenuActive(!menuActive)}>
           <div></div>
           <div></div>
           <div></div>
         </button>
       </nav>
-      <HeaderContent playersLinksData={props.playersLinksData} />
+      <HeaderContent playersLinksData={props.playersLinksData} setAlertActive={props.setAlertActive} />
     </header>
   );
 }

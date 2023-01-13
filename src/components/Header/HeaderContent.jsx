@@ -22,7 +22,7 @@ function HeaderContent(props) {
         </h1>
         <div className="header__links">
           <span>Listen on</span>
-          <PlayersLinks playersLinksData={props.playersLinksData} />
+          <PlayersLinks playersLinksData={props.playersLinksData} setAlertActive={props.setAlertActive} />
         </div>
       </div>
     </div>

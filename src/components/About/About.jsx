@@ -5,7 +5,8 @@ import Btn from "../UI/Button";
 
 import "./About.css";
 
-function About() {
+function About(props) {
+
   return (
     <section className="about" id="about">
       <div className="about__content">
@@ -19,7 +20,7 @@ function About() {
             He’s here to help you level up your game by sharing everything he’s
             learned along the way.
           </p>
-          <Btn className="about__btn" text="Meet your host" /> 
+          <Btn className="about__btn" text="Meet your host" onClick={() => props.setAlertActive(true)} /> 
         </div>
         <picture className="about__img">
           <source srcSet={about_img_webp} type="image/webp" />
