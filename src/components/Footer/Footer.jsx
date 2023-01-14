@@ -26,6 +26,7 @@ function Footer(props) {
       </button>
     </li>
   ));
+
   return (
     <footer className="footer">
       <div className="footer__inner">
@@ -34,7 +35,7 @@ function Footer(props) {
           <div className="footer__social">{iconsElements}</div>
         </div>
         <div className="footer__rightside">
-          <Menu />
+          <Menu menuData={props.menuData} />
           <ul className="footer__list">{listItems}</ul>
           <PlayersLinks playersLinksData={props.playersLinksData} setAlertActive={props.setAlertActive} />
         </div>

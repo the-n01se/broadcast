@@ -8,14 +8,13 @@ import Card from "./EpisodesCard";
 function Episodes(props) {
   const cardElements = props.episodesData.map((c) => (
     <Card
-      id={c.id}
+      key={c.id}
       srcImg={c.srcImg}
       srcImgWebp={c.srcImgWebp}
       tag={c.tag}
       counter={c.counter}
       title={c.title}
       descr={c.descr}
-      key={c.id}
       setAlertActive={props.setAlertActive}
     />
   ));

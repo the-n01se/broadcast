@@ -19,8 +19,8 @@ function App(props) {
         <Episodes name="episodes" episodesData={props.episodesData} setAlertActive={setAlertActive} />
         <About name="about" setAlertActive={setAlertActive} />
         <Subscribe name="subscribe" setAlertActive={setAlertActive} />
-        <Feedback feedbackData={props.feedbackData} />
-        <Footer playersLinksData={props.playersLinksData} footerIconData={props.footerIconData} setAlertActive={setAlertActive} footerMenuData={props.footerMenuData} />
+        <Feedback feedbackCardData={props.feedbackCardData} feedbackIconData={props.feedbackIconData} />
+        <Footer playersLinksData={props.playersLinksData} menuData={props.menuData} footerIconData={props.footerIconData} setAlertActive={setAlertActive} footerMenuData={props.footerMenuData} />
       </div>
     </div>
   );

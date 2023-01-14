@@ -99,10 +99,10 @@ const episodesData = [
     counter: 3,
     title: "Should you get outboard audio gear?",
     descr: "Is hardware really worth it when it comes to podcasting? The answer is...it depends. Here’s our reasons on why you might want to consider picking something up."
-  },
+  }
 ];
 
-const feedbackData = [
+const feedbackCardData = [
   {
     id: 1,
     grade: 1,
@@ -140,6 +140,39 @@ const feedbackData = [
     author: "Steven Blast"
   }
 ];
+
+const feedbackIconData = [
+  {
+    id: 1,
+    icon: <svg
+      width="18"
+      height="17"
+      viewBox="0 0 18 17"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M9.01265 14.135L13.1626 16.645C13.9226 17.105 14.8526 16.425 14.6526 15.565L13.5526 10.845L17.2226 7.665C17.8926 7.085 17.5326 5.985 16.6526 5.915L11.8226 5.505L9.93265 1.045C9.59265 0.235 8.43265 0.235 8.09265 1.045L6.20265 5.495L1.37265 5.905C0.492646 5.975 0.132646 7.075 0.802646 7.655L4.47265 10.835L3.37265 15.555C3.17265 16.415 4.10265 17.095 4.86265 16.635L9.01265 14.135Z"
+        fill="#FCFF51"
+      />
+    </svg>
+  },
+  {
+    id: 2,
+    icon: <svg
+      width="18"
+      height="17"
+      viewBox="0 0 18 17"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M9.01265 14.135L13.1626 16.645C13.9226 17.105 14.8526 16.425 14.6526 15.565L13.5526 10.845L17.2226 7.665C17.8926 7.085 17.5326 5.985 16.6526 5.915L11.8226 5.505L9.93265 1.045C9.59265 0.235 8.43265 0.235 8.09265 1.045L6.20265 5.495L1.37265 5.905C0.492646 5.975 0.132646 7.075 0.802646 7.655L4.47265 10.835L3.37265 15.555C3.17265 16.415 4.10265 17.095 4.86265 16.635L9.01265 14.135Z"
+        fill="#404040"
+      />
+    </svg>
+  }
+]
 
 const footerIconData = [
   {
@@ -245,6 +278,6 @@ const footerMenuData = [
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App menuData={menuData} playersLinksData={playersLinksData} episodesData={episodesData} feedbackData={feedbackData} footerIconData={footerIconData} footerMenuData={footerMenuData} />
+    <App menuData={menuData} playersLinksData={playersLinksData} episodesData={episodesData} feedbackCardData={feedbackCardData} feedbackIconData={feedbackIconData} footerIconData={footerIconData} footerMenuData={footerMenuData} />
   </React.StrictMode>
 );
