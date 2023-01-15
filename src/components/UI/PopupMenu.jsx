@@ -35,6 +35,7 @@ function PopupMenu(props) {
   const popupMenuElements = props.menuData.map((m) => (
     <li className="popup_menu__list-item" key={m.id}>
       <Link
+        href="#"
         to={m.link}
         spy={true}
         smooth={true}

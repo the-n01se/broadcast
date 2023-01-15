@@ -10,6 +10,7 @@ function Footer(props) {
   const iconsElements = props.footerIconData.map((f) => (
     <button
       key={f.id}
+      role={f.role}
       className="footer__social-link"
       onClick={() => props.setAlertActive(true)}
     >
