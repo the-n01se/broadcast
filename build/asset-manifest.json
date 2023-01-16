@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e021df0d.css",
+    "main.js": "/static/js/main.21c357d0.js",
+    "static/media/about_img.jpg": "/static/media/about_img.d025145c93cb6a5faa9e.jpg",
+    "static/media/header_img.jpg": "/static/media/header_img.e385566cd1a530e9355b.jpg",
+    "static/media/about_img.webp": "/static/media/about_img.24426e4f8e093a01adad.webp",
+    "static/media/DMSans-Regular.woff": "/static/media/DMSans-Regular.c8bcadee99bb3eea2182.woff",
+    "static/media/DMSans-Bold.woff": "/static/media/DMSans-Bold.a16bd14f2cf7bb205a5f.woff",
+    "static/media/episode_3.jpg": "/static/media/episode_3.bbff2effde16102dee01.jpg",
+    "static/media/DMSans-Regular.woff2": "/static/media/DMSans-Regular.253b5a5570daca374307.woff2",
+    "static/media/DMSans-Bold.woff2": "/static/media/DMSans-Bold.a5beaa6e041609de5f01.woff2",
+    "static/media/header_img.webp": "/static/media/header_img.2d40f2c3e7b0738daba2.webp",
+    "static/media/episode_1.jpg": "/static/media/episode_1.4d57084f0efcf0cb9303.jpg",
+    "static/media/episode_3.webp": "/static/media/episode_3.0451f8adb4c1e12d52f1.webp",
+    "static/media/episode_1.webp": "/static/media/episode_1.ef7a6781d0bbfeb9ceae.webp",
+    "static/media/episode_2.jpg": "/static/media/episode_2.e3fb820ac7c26df26141.jpg",
+    "static/media/episode_2.webp": "/static/media/episode_2.c615e70d5633f6611446.webp",
+    "static/media/logo.svg": "/static/media/logo.60d2bfc4353e3804b03ad8fa43000a3c.svg",
+    "static/media/soundcloud_icon.svg": "/static/media/soundcloud_icon.ca16d9dcee1703e2771c0ec98308cfa0.svg",
+    "static/media/apple-podcasts_icon.svg": "/static/media/apple-podcasts_icon.db9ab229757c605b464ca8e691317b67.svg",
+    "static/media/overcast_icon.svg": "/static/media/overcast_icon.484fee2edae0d294413019852d408323.svg",
+    "static/media/spotify_icon.svg": "/static/media/spotify_icon.3ef81ef830d91736a63c85d7bb5b6bb9.svg",
+    "static/media/pocket-casts_icon.svg": "/static/media/pocket-casts_icon.9f5a29c37b1f802b265def4fa64676f6.svg",
+    "index.html": "/index.html",
+    "static/media/arrow_icon.svg": "/static/media/arrow_icon.b987f7ab536f2bef9c3b.svg",
+    "main.e021df0d.css.map": "/static/css/main.e021df0d.css.map",
+    "main.21c357d0.js.map": "/static/js/main.21c357d0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e021df0d.css",
+    "static/js/main.21c357d0.js"
+  ]
+}
