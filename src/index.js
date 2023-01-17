@@ -177,7 +177,7 @@ const feedbackIconData = [
 const footerIconData = [
   {
     id: 1,
-    role: instagram,
+    role: 'instagram',
     icon: <svg
       width="24"
       height="25"
@@ -211,7 +211,7 @@ const footerIconData = [
   },
   {
     id: 2,
-    role: twitter,
+    role: 'twitter',
     icon: <svg
       width="24"
       height="25"
@@ -231,7 +231,7 @@ const footerIconData = [
   },
   {
     id: 3,
-    role: facebook,
+    role: 'facebook',
     icon: <svg
       width="12"
       height="23"
